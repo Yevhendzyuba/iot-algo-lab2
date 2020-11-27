@@ -4,7 +4,6 @@ class BST:
         self.key = key
         self.root = None
 
-
     class Node:
         def __init__(self, data, key_, parent):
             self.parent = parent
@@ -17,21 +16,26 @@ class BST:
         current = self.root
 
         if self.root is None:
-            self.root = self.Node(data,self.key(data),None);
+            self.root = self.Node(data, self.key(data), None);
             return
 
         while True:
             if self.key(current.data) < self.key(data):
                 if current.right_child is None:
-                    current.right_child = self.Node(data,self.key(data), parent=current); return
-                else: current = current.right_child
+                    current.right_child = self.Node(data, self.key(data), parent=current);
+                    return
+                else:
+                    current = current.right_child
             elif self.key(current.data) > self.key(data):
                 if current.left_child is None:
-                    current.left_child = self.Node(data,self.key(data), parent=current); return
-                else: current = current.left_child
-            else:current.data = data;return
+                    current.left_child = self.Node(data, self.key(data), parent=current);
+                    return
+                else:
+                    current = current.left_child
+            else:
+                current.data = data;return
 
-    def limit_element(self,key):
+    def limit_element(self, key):
         if self.root is not None:
             current = self.root
             while key(current) is not None:
@@ -39,12 +43,12 @@ class BST:
             return current
 
     def get_min_element(self):
-        return self.limit_element(lambda x:x.left_child).data
+        return self.limit_element(lambda x: x.left_child).data
 
     def get_max_element(self):
-        return self.limit_element(lambda x:x.right_child).data
+        return self.limit_element(lambda x: x.right_child).data
 
-    def remove_element(self,node):
+    def remove_element(self, node):
         if node.right_child is not None:
             if node.parent is None:
                 node.right_child.parent = None
@@ -57,9 +61,5 @@ class BST:
             else:
                 self.root = None
 
-
-
     def remove_min_element(self):
-        self.remove_element(self.limit_element(lambda x:x.left_child))
-
-
+        self.remove_element(self.limit_element(lambda x: x.left_child))
