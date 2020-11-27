@@ -34,7 +34,7 @@ if __name__ == "__main__":
     third_result = main(third_file_in)
 
     print(f'First hamsters result: {first_result}')
-    print(f'Second hamsters result: {second_result}')
+    print(f'Second hamsters result {second_result}')
     print(f'Third hamsters result: {third_result}')
 
     output_data(first_file_out, str(first_result))
