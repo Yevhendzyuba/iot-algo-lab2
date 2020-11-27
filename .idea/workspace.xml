@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e056bf30-e84b-48c5-963b-ad55a280a31a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/IO/hamster.in" beforeDir="false" afterPath="$PROJECT_DIR$/IO/in/hamster1.in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IO/hamster.out" beforeDir="false" afterPath="$PROJECT_DIR$/IO/out/hamster1.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bst.py" beforeDir="false" afterPath="$PROJECT_DIR$/bst.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IO/in/hamster3.in" beforeDir="false" afterPath="$PROJECT_DIR$/IO/in/hamster3.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IO/out/hamster1.out" beforeDir="false" afterPath="$PROJECT_DIR$/IO/out/hamster1.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hmstr.py" beforeDir="false" afterPath="$PROJECT_DIR$/hmstr.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/io_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/io_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -85,7 +88,7 @@
       <workItem from="1606394183197" duration="2497000" />
       <workItem from="1606499035011" duration="2843000" />
       <workItem from="1606502004963" duration="298000" />
-      <workItem from="1606502356644" duration="2790000" />
+      <workItem from="1606502356644" duration="4128000" />
     </task>
     <servers />
   </component>
@@ -93,28 +96,28 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1638" height="244" key="GridCell.Tab.0.bottom" timestamp="1606506294619">
+    <state width="1638" height="244" key="GridCell.Tab.0.bottom" timestamp="1606507657323">
       <screen x="0" y="25" width="1680" height="961" />
     </state>
     <state width="1638" height="255" key="GridCell.Tab.0.bottom/0.25.1680.1025/-173.-1055.1920.1055@0.25.1680.1025" timestamp="1606502310685" />
-    <state width="1638" height="244" key="GridCell.Tab.0.bottom/0.25.1680.961/-173.-1055.1920.1055@0.25.1680.961" timestamp="1606506294619" />
-    <state width="1638" height="244" key="GridCell.Tab.0.center" timestamp="1606506294618">
+    <state width="1638" height="244" key="GridCell.Tab.0.bottom/0.25.1680.961/-173.-1055.1920.1055@0.25.1680.961" timestamp="1606507657323" />
+    <state width="1638" height="244" key="GridCell.Tab.0.center" timestamp="1606507657319">
       <screen x="0" y="25" width="1680" height="961" />
     </state>
     <state width="1638" height="255" key="GridCell.Tab.0.center/0.25.1680.1025/-173.-1055.1920.1055@0.25.1680.1025" timestamp="1606502310684" />
-    <state width="1638" height="244" key="GridCell.Tab.0.center/0.25.1680.961/-173.-1055.1920.1055@0.25.1680.961" timestamp="1606506294618" />
-    <state width="1638" height="244" key="GridCell.Tab.0.left" timestamp="1606506294618">
+    <state width="1638" height="244" key="GridCell.Tab.0.center/0.25.1680.961/-173.-1055.1920.1055@0.25.1680.961" timestamp="1606507657319" />
+    <state width="1638" height="244" key="GridCell.Tab.0.left" timestamp="1606507657317">
       <screen x="0" y="25" width="1680" height="961" />
     </state>
     <state width="1638" height="255" key="GridCell.Tab.0.left/0.25.1680.1025/-173.-1055.1920.1055@0.25.1680.1025" timestamp="1606502310684" />
-    <state width="1638" height="244" key="GridCell.Tab.0.left/0.25.1680.961/-173.-1055.1920.1055@0.25.1680.961" timestamp="1606506294618" />
-    <state width="1638" height="244" key="GridCell.Tab.0.right" timestamp="1606506294619">
+    <state width="1638" height="244" key="GridCell.Tab.0.left/0.25.1680.961/-173.-1055.1920.1055@0.25.1680.961" timestamp="1606507657317" />
+    <state width="1638" height="244" key="GridCell.Tab.0.right" timestamp="1606507657321">
       <screen x="0" y="25" width="1680" height="961" />
     </state>
     <state width="1638" height="255" key="GridCell.Tab.0.right/0.25.1680.1025/-173.-1055.1920.1055@0.25.1680.1025" timestamp="1606502310685" />
-    <state width="1638" height="244" key="GridCell.Tab.0.right/0.25.1680.961/-173.-1055.1920.1055@0.25.1680.961" timestamp="1606506294619" />
+    <state width="1638" height="244" key="GridCell.Tab.0.right/0.25.1680.961/-173.-1055.1920.1055@0.25.1680.961" timestamp="1606507657321" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/algo_lab2$main.coverage" NAME="main Coverage Results" MODIFIED="1606506353934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/algo_lab2$main.coverage" NAME="main Coverage Results" MODIFIED="1606507769142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
